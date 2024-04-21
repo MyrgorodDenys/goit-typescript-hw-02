@@ -1,0 +1,25 @@
+.btnThumb {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+.btnLoad {
+    display: block;
+    border-radius: 8px;
+    background-color: #2d313f;
+    border: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: .04em;
+    transition: background-color .5s cubic-bezier(.4, 0, .2, 1);
+    padding: 8px 25px;
+}
+
+.btnLoad:hover,
+.btnLoad:focus {
+    background-color: #5c6172;
+}

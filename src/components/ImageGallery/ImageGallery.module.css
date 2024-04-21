@@ -1,0 +1,26 @@
+.containerGallery {
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+.galleryItem {
+    margin-left: 20px;
+    transition: transform .3s;
+}
+
+.galleryItem:hover,
+.galleryItem:focus {
+    box-shadow: 0 1px 6px #2e2f4214, 0 1px 1px #2e2f4229, 0 2px 1px #2e2f4214;
+    transform: scale(1.05);
+    cursor: zoom-in;
+}

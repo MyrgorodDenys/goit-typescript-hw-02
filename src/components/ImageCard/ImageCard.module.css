@@ -1,0 +1,40 @@
+.galleryImage {
+    display: block;
+    height: 30vh;
+    object-fit: cover;
+
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.thumbBlock {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #8b7cce4a;
+    border: 1px solid #5c6297;
+    border-top: none;
+
+    padding: 10px;
+}
+
+.galleryThumb:hover .thumbBlock {
+    border-color: #8791e0;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.textPhoto {
+    color: #212127;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .04em;
+    /* text-align: center; */
+}
+
+.position {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
